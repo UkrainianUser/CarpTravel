@@ -4,26 +4,26 @@ export default function Home() {
 	return (
 		<>
 			<Header />
-			<section className="home h-screen">
+			<section className="home h-screen pt-28">
 				<div className="container">
-					<div className="uppercase text-center mb-4">
-						<span className="text-3xl font-semibold">7</span>
-						<span className="text-3xl">days </span>
-						<span className="text-base font-medium">journey</span>
+					<div className="uppercase text-end w-28 mb-6 ml-auto tracking-widest">
+						<span className="text-4xl font-medium">7</span>
+						<span className="text-4xl font-thin">days </span>
+						<span className="title-sub text-xs font-light">journey</span>
 					</div>
-					<h2 className="text-center mb-4 text-4xl font-light">
-						Uncover Carpathian's Secrets
+					<h2 className="mb-6 text-4xl font-thin uppercase tracking-wide">
+						<span className="font-medium">Uncover</span> Carpathian's Secrets
 					</h2>
-					<p className="home-mark text-center mb-4 text-base font-light">
+					<p className="home-mark w-40 mb-6 font-extralight leading-5">
 						Hoverla / Yaremche / Zakarpattia / Vorokhta / Synevyr Lake / Bukovel
 					</p>
-					<p className="home-text text-center mb-4 text-base font-light">
+					<p className="home-text mb-6 text-sm font-thin tracking-wide leading-5">
 						We offer you unforgettable trips to the most beautiful parts of the
 						Carpathians. Enjoy stunning views, exciting expeditions, and the
 						best service!
 					</p>
 					<a
-						className="home-link flex justify-center items-center gap-2 py-3 px-4 text-base font-bold text-white bg-opacity-10 border-dashed border-white"
+						className="home-link flex justify-center uppercase py-5 text-lg font-bold border border-dashed"
 						href="#"
 					>
 						Join now

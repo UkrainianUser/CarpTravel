@@ -1,7 +1,7 @@
 import Image from "next/image";
 import logo from "../../public/logo.svg";
 
-export default function Home() {
+const Header = () => {
 	return (
 		<header className="header flex justify-between py-9 px-5 absolute w-screen">
 			<Image src={logo} alt="logo" width={61} height={34} />
@@ -10,4 +10,6 @@ export default function Home() {
 			</button>
 		</header>
 	);
-}
+};
+
+export default Header;

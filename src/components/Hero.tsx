@@ -4,7 +4,7 @@ import Container from "./Container";
 const Hero: NextPage = () => {
 	return (
 		<>
-			<section className="hero h-screen pt-28">
+			<section className="h-screen pt-28 bg-[url('/bg-home-mobile.jpg')] bg-cover">
 				<Container>
 					<div className="uppercase text-end w-28 mb-6 ml-auto tracking-widest">
 						<span className="text-4xl font-medium">7</span>
@@ -23,7 +23,7 @@ const Hero: NextPage = () => {
 						best service!
 					</p>
 					<a
-						className="hero-link flex justify-center uppercase py-5 text-lg font-bold border border-dashed"
+						className="bg-[#ffffff1a] flex justify-center uppercase py-5 text-lg font-bold border border-dashed"
 						href="#"
 					>
 						Join now

@@ -4,12 +4,13 @@ import Container from "./Container";
 const About: NextPage = () => {
 	return (
 		<>
-			<section className="about h-full py-14">
+			<section className="h-full py-14 bg-[url('/bg-about-mobile.jpg')] bg-cover">
 				<Container>
-					<h2 className="mb-5 text-4xl font-extralight uppercase tracking-wide">
+					<h2 className="mb-5 text-4xl font-thin uppercase tracking-wide">
 						Who
 						<span className="text-4xl font-medium"> we are</span>
 					</h2>
+					text-4xl font-medium
 					<p className="mb-5 text-sm font-thin tracking-wide leading-5 w-[180px]">
 						<span className="font-medium">a team of enthusiasts </span>
 						who are fully committed to the mission of creating unforgettable and

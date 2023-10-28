@@ -1,0 +1,24 @@
+{
+	"services": [
+		{
+			"bg": "/bg-services1-mobile.jpg",
+			"name": "ATVs Traveling"
+		},
+		{
+			"bg": "/bg-services2-mobile.jpg",
+			"name": "Rock climbing"
+		},
+		{
+			"bg": "/bg-services3-mobile.jpg",
+			"name": "Hot air ballooning"
+		},
+		{
+			"bg": "/bg-services4-mobile.jpg",
+			"name": "Skydiving"
+		},
+		{
+			"bg": "/bg-services5-mobile.jpg",
+			"name": "Rafting"
+		}
+	]
+}

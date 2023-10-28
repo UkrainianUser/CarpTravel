@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Services from "@/components/Services";
-import CareerInfo from "@/components/CareerInfo";
+import Career from "@/components/Career";
 
 const Home: NextPage = () => {
 	return (
@@ -13,7 +13,7 @@ const Home: NextPage = () => {
 				<Hero />
 				<About />
 				<Services />
-				<CareerInfo />
+				<Career />
 			</main>
 		</>
 	);

@@ -5,7 +5,7 @@ const About: NextPage = () => {
 	return (
 		<>
 			<section
-				className="h-full py-14 bg-[url('/bg-about-mobile.jpg')] bg-cover"
+				className="h-full py-14 bg-[url('/bg-about-mobile.jpg')] min-[480px]:bg-[url('/bg-about-tablet.jpg')] bg-cover"
 				name="about"
 			>
 				<Container>

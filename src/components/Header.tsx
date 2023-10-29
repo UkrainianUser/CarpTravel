@@ -4,6 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import logo from "../../public/logo.svg";
 import MobileMenu from "./MobileMenu";
+import Container from "./Container";
 
 const Header = () => {
 	const [isOpenMenu, setIsOpenMenu] = useState(false);
@@ -16,15 +17,19 @@ const Header = () => {
 	};
 
 	return (
-		<header className="header flex justify-between py-9 px-5 absolute w-screen">
-			<Image src={logo} alt="logo" width={61} height={34} />
-			<button
-				className="uppercase bg-transparent text-white border-none"
-				onClick={handleOpenMenu}
-			>
-				Menu
-			</button>
-			{isOpenMenu && <MobileMenu onCloseMenu={handleCloseMenu} />}
+		<header className="header py-9 absolute w-screen">
+			<Container>
+				<div className="flex justify-between">
+					<Image src={logo} alt="logo" width={61} height={34} />
+					<button
+						className="uppercase bg-transparent text-white border-none"
+						onClick={handleOpenMenu}
+					>
+						Menu
+					</button>
+					{isOpenMenu && <MobileMenu onCloseMenu={handleCloseMenu} />}
+				</div>
+			</Container>
 		</header>
 	);
 };

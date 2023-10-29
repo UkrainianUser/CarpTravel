@@ -8,7 +8,7 @@ interface MobileMenuProps {
 
 const MobileMenu: FC<MobileMenuProps> = ({ onCloseMenu }) => {
 	return (
-		<div className="bg-[#010a05bf] backdrop-blur-xl fixed top-0 left-0 w-full h-full pt-11 text-lg tracking-[1.8px]">
+		<div className="bg-[#010a05bf] backdrop-blur-xl fixed top-0 left-0 w-full h-full pt-11 text-lg tracking-[1.8px] z-10">
 			<Container>
 				<button
 					className="uppercase block ml-auto mb-[110px] text-sm"

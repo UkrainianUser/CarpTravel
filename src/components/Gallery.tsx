@@ -3,7 +3,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import Container from "./Container";
 import Image from "next/image";
-import "swiper/css";
 import { Navigation, Pagination } from "swiper/modules";
 
 const Gallery = () => {

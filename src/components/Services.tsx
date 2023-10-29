@@ -25,6 +25,7 @@ const Services: NextPage = () => {
 		<>
 			<section
 				className={`h-screen py-14 bg-[url('/bg-services1-mobile.jpg')] bg-cover`}
+				name="services"
 			>
 				<Container>
 					<h2 className="mb-5 uppercase text-4xl font-thin tracking-wide">

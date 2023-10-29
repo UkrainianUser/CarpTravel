@@ -4,7 +4,10 @@ import Container from "./Container";
 const About: NextPage = () => {
 	return (
 		<>
-			<section className="h-full py-14 bg-[url('/bg-about-mobile.jpg')] bg-cover">
+			<section
+				className="h-full py-14 bg-[url('/bg-about-mobile.jpg')] bg-cover"
+				name="about"
+			>
 				<Container>
 					<h2 className="mb-5 text-4xl font-thin uppercase tracking-wide">
 						Who

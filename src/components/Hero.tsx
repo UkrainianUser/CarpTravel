@@ -1,5 +1,6 @@
 import { NextPage } from "next";
 import Container from "./Container";
+import Link from "next/link";
 
 const Hero: NextPage = () => {
 	return (
@@ -22,12 +23,12 @@ const Hero: NextPage = () => {
 						Carpathians. Enjoy stunning views, exciting expeditions, and the
 						best service!
 					</p>
-					<a
+					<Link
 						className="bg-[#ffffff1a] flex justify-center uppercase py-5 text-lg font-bold border border-dashed"
-						href="#"
+						href="#contacts"
 					>
 						Join now
-					</a>
+					</Link>
 				</Container>
 			</section>
 		</>

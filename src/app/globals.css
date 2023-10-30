@@ -17,6 +17,10 @@ button {
 	cursor: pointer;
 }
 
+a {
+	cursor: pointer;
+}
+
 img {
 	width: auto;
 	height: auto;
